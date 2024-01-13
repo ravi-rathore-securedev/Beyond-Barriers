@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import FeatureCard from './Feature-card.js'
+
+import FeatureCard from './Feature-card'
 import GalleryCard3 from './gallery-card3'
 import '../style/Home.css'
 
@@ -20,8 +21,12 @@ const Home = (props) => {
               <span className="home-nav5">Blog</span>
             </nav>
             <div className="home-buttons">
-              <button className="home-login button">Sign In</button>
-              <button className="home-register button">Sign Up</button>
+              <button className="home-login button">
+                <Link to="/signin">Sign In</Link>
+                </button>
+              <button className="home-register button">
+              <Link to="/signup">Sign Up</Link>
+                </button>
             </div>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu"></div>
@@ -66,7 +71,7 @@ const Home = (props) => {
           <div className="home-container1">
             <h1 className="home-hero-heading heading1">Beyond Barriers</h1>
             <span className="home-hero-sub-heading">
-              An Inclusive Environment For Better Opportunities
+              An Inclusive Environment For Better  
             </span>
             <div className="home-btn-group">
               <button className="home-hero-button1 button">Get Started</button>
@@ -94,7 +99,8 @@ const Home = (props) => {
             </span>
           </div>
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7QjKB9WCA1ErRfEeBh18cX5lpHDTnqivWl8BWt2n936VPNtj8bmgVRDptNGcmhkIrpXg&amp;usqp=CAU"  alt="img"
+            alt="image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7QjKB9WCA1ErRfEeBh18cX5lpHDTnqivWl8BWt2n936VPNtj8bmgVRDptNGcmhkIrpXg&amp;usqp=CAU"
             className="home-details-image"
           />
         </div>

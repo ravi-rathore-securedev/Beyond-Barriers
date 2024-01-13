@@ -38,6 +38,7 @@ export const SignUp = () => {
   };
 
   return (
+    <div className='mains'>
     <div className='container1'>
       <form className='form'>
         <div className='logo'></div>
@@ -52,7 +53,7 @@ export const SignUp = () => {
               value={formData.email}
               onChange={handleChange}
             />
-            <button type='button' className='btn' onClick={handleNext}>
+            <button type='button'className='buttons' onClick={handleNext}>
               Next
             </button>
             <div className='or'>or</div>
@@ -67,7 +68,7 @@ export const SignUp = () => {
               type='text'
               placeholder='Full Name'
               name='fullName'
-              
+              className='inputs'
               value={formData.fullName}
               onChange={handleChange}
             />
@@ -75,7 +76,8 @@ export const SignUp = () => {
               type='text'
               placeholder='Gender'
               name='gender'
-              className='input1'
+              className='inputs'
+
               value={formData.gender}
               onChange={handleChange}
             >
@@ -88,11 +90,11 @@ export const SignUp = () => {
               type='text'
               placeholder='Phone Number'
               name='phoneNumber'
-              
+                className='inputs'
               value={formData.phoneNumber}
               onChange={handleChange}
             />
-            <button type='button' className='btn' onClick={handleNext}>
+            <button type='button' className='buttons' onClick={handleNext}>
               Next
             </button>
           </>
@@ -117,12 +119,13 @@ export const SignUp = () => {
               value={formData.confirmPassword}
               onChange={handleChange}
             />
-            <button type='button' className='btn' onClick={handleSubmit}>
+            <button type='button' className='buttons' onClick={handleSubmit}>
               Submit
             </button>
           </>
         )}
       </form>
+      </div>
     </div>
   );
 };
