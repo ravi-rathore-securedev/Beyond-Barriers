@@ -4,7 +4,7 @@
 # Rachit Gupta
 # Vaibhav Sharma
 
-#### Project Is Shortlisted In GDSC India Regional Bootcamp - Delhi Edition 🎉🎉
+### Project Is Shortlisted In GDSC India Regional Bootcamp - Delhi Edition 🎉🎉
 
 # Getting Started with Create React App
 
