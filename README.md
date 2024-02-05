@@ -2,7 +2,7 @@
 # Utkarsh Katiyar
 # Ravi Rathore
 # Rachit Gupta
-# Vaibhav Sharma
+# Vibhav Mishra
 
 ### Project Is Shortlisted In GDSC India Regional Bootcamp - Delhi Edition 🎉🎉
 
