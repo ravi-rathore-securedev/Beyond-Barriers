@@ -1,0 +1,265 @@
+.opportunities{
+    padding-top: 10vh;
+background-color: rgb(234, 241, 241);
+width: 100%;
+height: 12vh;
+display: flex;
+justify-content: center;
+}
+.opportunity{
+    text-decoration: none;
+    width: 15%;
+    font-size: 22px;
+    font-weight: 500;
+    color: #0669be;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-color: #ffffffee;
+    margin: 0 1vw;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(133, 132, 132, 0.2);
+}
+.opportunity-head{
+    width: 100%;
+    height: 80vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+
+}
+.opportunity-content{
+    width: 40%;
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 500;
+}
+.opportunity-line{
+    width: 100%;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+
+}
+.opportunity-btn{
+    width: 30%;
+    height: 7vh;
+    background-color: rgb(35, 121, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    border-radius: 15px;
+    color: #ffffff;
+
+
+}
+.opportunity-img{
+    width: 45%;
+background-image: url('../Assets/job.webp');
+/* background-color: aqua; */
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+
+.job-opportunity{
+    background-color: rgba(242, 249, 249, 0.9);
+width: 100%;
+height: 94vh;
+display: flex;
+border-radius: 15px;
+}
+.job-left{
+background-color: rgb(180, 237, 254);
+width: 22%;
+}
+.search{
+display: flex;
+margin-top: 2vh;
+justify-content: space-around;
+}
+.search-input{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 5vh;
+    border-radius: 15px;
+    font-size: larger;
+    padding-left: 10px;
+  
+}
+.search-btn{
+    width: 15%;
+    height: 6vh;
+    /* background-color: rgb(35, 121, 225); */
+    background-image: url('../Assets/search.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.filter{
+    display: flex;
+    margin-top: 2vh;
+    justify-content: center;
+    font-size: 30px;
+    color: #2b0fe6;
+    font-weight: 600;
+
+}
+.filter-btn{
+    font-size: 20px;
+    margin: 2vh;
+
+}
+.search-check{
+    width: 15%;
+    height: 2.5vh;
+}
+.job-right{
+/* background-color: rosybrown; */
+width: 60%;
+display: flex;
+margin-left: 15vh;
+}
+.job-cards{
+  /* background-color: saddlebrown; */
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* align-self: center; */
+}
+.job-card{
+  /* background-color: skyblue; */
+  width: 75%;
+  height: 37vh;
+  margin: 5vh;
+ 
+
+}
+.job-card-img{
+background-image: url('../Assets/google\ logo.png');
+background-color: rgb(234, 250, 254);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: 5px;
+width: 100%;
+height: 43%;
+border-radius: 25px 25px 0 0;
+
+box-shadow: 10px 10px 10px 0px rgba(133, 132, 132, 0.2);
+
+}
+
+.job-content{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+  border-radius: 0 0 25px 25px;
+
+  box-shadow: 10px 10px 10px 0px rgba(133, 132, 132, 0.2);
+    
+}
+.company{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2b0fe6;
+    text-align: center;
+
+}
+.job-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #101010;
+    text-align: center;
+
+}
+.job-data{
+    font-size: 14px;
+    font-weight: 600;
+    color: #101010;
+    margin: 1.5vh;
+   
+
+}
+.apply-btn{
+    width: 70%;
+    height: 22%;
+    background-color: rgb(35, 121, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-left: 15%;
+}
+.job-card-img2{
+    background-image: url('../Assets/jobAssets/TCS_Logo.jpg');
+    background-color: rgb(234, 250, 254);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 43%;
+    border-radius: 25px 25px 0 0;
+    box-shadow: 10px 10px 10px 0px rgba(133, 132, 132, 0.2);
+    
+    }
+    .job-card-img3{
+        background-image: url('../Assets/jobAssets/salesforce.jpg');
+        background-color: rgb(234, 250, 254);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: 45%;
+        border-radius: 25px 25px 0 0;
+        box-shadow: 10px 10px 10px 0px rgba(133, 132, 132, 0.2);
+        
+        }
+        .job-card-img4{
+            background-image: url('../Assets/jobAssets/walmart.jpg');
+            background-color: rgb(234, 250, 254);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 1px;
+
+            width: 100%;
+            height: 45%;
+            border-radius: 25px 25px 0 0;
+            box-shadow: 10px 10px 10px 0px rgba(133, 132, 132, 0.2);
+            
+            }
+            .job-card-img5{
+                background-image: url('../Assets/jobAssets/Adobe.jpg');
+                background-color: rgb(234, 250, 254);
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 45%;
+                border-radius: 25px 25px 0 0;
+                box-shadow: 10px 10px 10px 0px rgba(133, 132, 132, 0.2);
+                
+                }
+                .job-card-img6{
+                    background-image: url('../Assets/jobAssets/infosys.jpg');
+                    background-color: rgb(234, 250, 254);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: 5px;
+                    width: 100%;
+                    height: 45%;
+                    border-radius: 25px 25px 0 0;
+                    box-shadow: 10px 10px 10px 0px rgba(133, 132, 132, 0.2);
+                    
+                    }

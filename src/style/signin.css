@@ -1,74 +1,121 @@
-.mains{
-       background-color: rgb(9, 106, 225);
-       width: 100%;
-       height: 100vh;
-      display: flex;
-      display: flex;
-      align-items: center;
-        justify-content: center;
-      
-}
-.container{
-    width: 400px;
-    height: 500px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-}
-.form-container{
+.div_box {
+    height: 100vh;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgb(191, 200, 210) 0px 3px 3px 3px;
-}
-.logo{
-    border: 2px solid #000000;
-    height: 13vh;
-    width: 24%;
-    margin: 3vh;
-    align-self: center;
-    border-radius: 53%;
-    background-image: url("https://th.bing.com/th/id/OIP.HHVUf3TYqncgpJXyCMmxyAHaHa?rs=1&pid=ImgDetMain");
-  background-size: cover; 
-}
-.titles{
-   font-size: 24px;
-    height: 5vh;
-    width: 20%;
-    margin: 2vh;
-    align-self: center;
-    margin-bottom: 3vh;
-    text-align: center;
-}
-.inputs{
-  width: 60%;
-  margin:2vh;
-  align-self: center;
-  padding: 8px;
-  margin-bottom: 5vh;
-  border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 233, 247);
 }
 
-.buttons{
-    background-color: rgb(202, 51, 9);
+.db_l_image{
+    width:100%;
+    height: 100%;;
+    /* border: 2px 2px 2px 0 solid black; */
+    /* margin-left: -20%; */
+    
+    
+    /* border: 2px solid black; */
+}
+
+.db_box{
+    background-color: rgb(82, 173, 252);
+    width: 55%;
+    height: 85vh;
+    margin: auto;
+    display: flex;
+    /* border: 2px solid black; */
+    box-shadow: 10px 0px 12px 3px rgb(154, 150, 150) ;
+}
+.db_left{
+    /* background-color: blue; */
+    width: 40%;
+    height: 100%;
+}
+.db_right{
+    /* background-color: rgb(196, 151, 252); */
+    /* background: linear-gradient(to right, #ff7e5f, #feb47b) */
+    background: linear-gradient(90deg, #8c52ff , #5c31e6);    width: 60%;
+    height: 100%;
+}
+.db_logo{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.db_img{
+    height: 50px;
+    width:50px;
+    
+}
+.DE{
+    font-size: 15px;
+}
+.WB{
+    font-size: 22px;
     color: white;
-    width: 65%;
-    margin:2vh;
-    align-self: center;
-    padding: 8px;
-    border-radius: 5px;
-    box-shadow: rgb(3, 43, 92) 0px 1px 1px 0px;
-    transition: background-color 0.1s ease;
+    font-weight: 700;
 }
-.or{
-    align-self: center;
-    margin-bottom: 1.5vh;
+.db_logosection{
+    margin-left: 12px;
 }
-.buttons:hover {
-    background-color: rgb(0, 203, 3); 
-    transform: scale(1.1); 
+.db_log{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 4.5vh;
+    width: 80%;
+}
+.db_google{
+    margin-left: 15px;
+    
+}
+.gggg{
+    font-size: 24px;
+    margin-left: 45px;
 }
 
-.buttons:active {
-    transform: scale(0.9);
+.db_id{
+    display: flex;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+.input_id{
+    margin-top: 8%;
+    margin-left:10%;
+    width:52vh;
+    height: 4.2vh;
+    margin-bottom: 10%;
+    /* background-color: blueviolet; */
+}
+.inp_id{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    border-radius: 8px;
+
+}
+.db_logi{
+    display: flex;
+    margin-top: 7%;
+    margin-left: 10%;
+    width: 80%;
+    height: 4.5vh;
+}
+.db_login{
+    width: 65%;
+    height: 100%;
+    font-size: 18px;
+    margin-left: 20%;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(21, 21, 186);
+}
+
+
+.dbs_id{
+    margin-top: 2%;
+    margin-left: 10%;
 }

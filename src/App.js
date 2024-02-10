@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import Home from './component/Home';
 import { SignIn } from './component/SignIn';
 import { SignUp } from './component/SignUp';
-import { Test } from './component/Test';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Main } from './component/Main';
+import { JobList } from './component/JobList';
+import { Scholarlist } from './component/Scholarlist';
 
 function App() {
   return (
@@ -12,11 +13,14 @@ function App() {
       <div className="App">
           <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />}></Route>
+          <Route path='/' element={<Main />}></Route>
           <Route path='/SignUp' element={<SignUp />}></Route>
           <Route path='/SignIn' element={<SignIn />}></Route>
+          <Route path='/job' element={<JobList />}></Route>
+          <Route path='/scholar' element={<Scholarlist />}></Route>
         </Routes>
       </BrowserRouter>
+     
       </div>
   );
 }

@@ -1,131 +1,55 @@
 import React, { useState } from 'react';
-import '../style/singup.css';
+import '../style/signin.css'
 
 export const SignUp = () => {
-  const [step, setStep] = useState(1);
-  const [formData, setFormData] = useState({
-    email: '',
-    fullName: '',
-    gender: '',
-    phoneNumber: '',
-    password: '',
-    confirmPassword: '',
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const handleNext = () => {
-    // Implement validation logic before moving to the next step
-    // For simplicity, we're assuming all fields are required
-    // if (!formData.email || !formData.fullName || !formData.gender || !formData.phoneNumber) {
-    //   alert('Please fill in all fields.');
-    //   return;
-    // }
-
-    setStep(step + 1);
-  };
-
-  const handleSubmit = () => {
-    // Implement final form submission logic
-    // For simplicity, we're just logging the form data
-    console.log('Submitted Form Data:', formData);
-  };
-
   return (
-    <div className='mains'>
-    <div className='container1'>
-      <form className='form'>
-        <div className='logo'></div>
-        {step === 1 && (
-          <>
-            <h1 className='or1'>Sign Up</h1>
-            <input
-              type='text'
-              placeholder='Email'
-              name='email'
-              className='input1'
-              value={formData.email}
-              onChange={handleChange}
-            />
-            <button type='button'className='buttons' onClick={handleNext}>
-              Next
-            </button>
-            <div className='or'>or</div>
-            <button type="submit" className='auth1'>Sign In with Google</button>
-          </>
-        )}
-        {step === 2 && (
-          <>
-           <h1 className='or1'>Sign Up</h1>
-            {/* Add fields for step 2: Full Name, Gender, Phone Number */}
-            <input
-              type='text'
-              placeholder='Full Name'
-              name='fullName'
-              className='inputs'
-              value={formData.fullName}
-              onChange={handleChange}
-            />
-            <select
-              type='text'
-              placeholder='Gender'
-              name='gender'
-              className='inputs'
+    <> 
+            <div className='div_box'>
+            <div className="db_box">
+                <div className="db_left">
+                    <img className='db_l_image' src='https://cdn.create.vista.com/api/media/small/418359674/stock-photo-man-wheelchair-showing-smiling-multiethnic-friends-white-background' alt='loading'></img>
+                </div>
+                <div className="db_right">
+                    <div className='db_logo'>
+                        <img className="db_img" src='https://media.istockphoto.com/id/902234158/vector/modern-passionate-disability-people-support-symbol-illustration.jpg?s=2048x2048&w=is&k=20&c=SG1hIFQ0fuAmga80DcJnp8uUQ1KkbMVr_MGBRockJpk=' alt='loading'></img>
+                        <div className='db_logosection' >
+                            <div className='DE'>Hi, Diverse Enable</div>
+                            <div className='WB'>Create New Account</div>
+                        </div>
+                        
+                    </div>
 
-              value={formData.gender}
-              onChange={handleChange}
-            >
-                <option>Select</option>
-                <option>Male</option>
-                <option>Female</option>
-                <option>others</option>
-            </select>
-            <input
-              type='text'
-              placeholder='Phone Number'
-              name='phoneNumber'
-                className='inputs'
-              value={formData.phoneNumber}
-              onChange={handleChange}
-            />
-            <button type='button' className='buttons' onClick={handleNext}>
-              Next
-            </button>
-          </>
-        )}
-        {step === 3 && (
-          <>
-            <h1 className='or'>Sign Up</h1>
-            {/* Add fields for step 3: Password, Confirm Password */}
-            <input
-              type='password'
-              placeholder='Password'
-              name='password'
-              className='input1'
-              value={formData.password}
-              onChange={handleChange}
-            />
-            <input
-              type='password'
-              placeholder='Confirm Password'
-              name='confirmPassword'
-              className='input1'
-              value={formData.confirmPassword}
-              onChange={handleChange}
-            />
-            <button type='button' className='buttons' onClick={handleSubmit}>
-              Submit
-            </button>
-          </>
-        )}
-      </form>
-      </div>
-    </div>
+                    <div className='db_log'>
+                        
+                        <img className="db_google" src='https://logos-world.net/wp-content/uploads/2020/09/Google-Symbol.png' alt='loading'></img>
+                        <div className='gggg'>Continue with Google</div> 
+                    </div>
+
+                    <div className='dbs_id'>
+                    ----------------------------- or ----------------------------- 
+                    </div>
+
+                    <div className='input_id'>
+                        <input className='inp_id' type='text' placeholder='Name'></input>
+
+                    </div>
+                    <div className='input_id'>
+                        <input className='inp_id' type='text' placeholder='E-mail'></input>
+                        
+                    </div>
+                    <div className='input_id'>
+                        <input className='inp_id' type='text' placeholder='D.O.B'></input>
+
+                    </div> <div className='input_id'>
+                        <input className='inp_id' type='text' placeholder='Password'></input>
+
+                    </div>
+                    
+                    <div className='db_logi' ><button className='db_login'>Sign Up</button></div>
+                   
+                </div>
+            </div>
+            </div>
+        </>
   );
 };
