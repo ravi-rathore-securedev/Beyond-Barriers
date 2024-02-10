@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Project Is Shortlisted In GDSC India Regional Bootcamp - Delhi Edition 🎉🎉
+
+# Team Member's Name:
+### Utkarsh Katiyar
+### Ravi Rathore
+### Rachit Gupta
+### Vibhav Mishra
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
