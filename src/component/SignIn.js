@@ -1,6 +1,7 @@
 import React from 'react'
 
 import '../style/signin.css'
+import { Link } from 'react-router-dom'
 export const SignIn = () => {
   return (
     <> 
@@ -22,7 +23,9 @@ export const SignIn = () => {
                     <div className='db_log'>
                         
                         <img className="db_google" src='https://logos-world.net/wp-content/uploads/2020/09/Google-Symbol.png' alt='loading'></img>
+                        <Link to='/' className='linkStyle' >
                         <div className='gggg'>Continue with Google</div> 
+                        </Link>
                     </div>
 
                     <div className='db_id'>
@@ -38,8 +41,12 @@ export const SignIn = () => {
                         
                     </div>
                     
+                    <Link to='/'  className='linkStyle'>
                     <div className='db_logi' ><button className='db_login'>Login</button></div>
+                    </Link>
+                    <Link to='/signup'  className='linkStyle'>
                    <div className='db_logi' ><button className='db_login'>Don't have account? Sign up</button></div> 
+                   </Link>
                
                 </div>
             </div>

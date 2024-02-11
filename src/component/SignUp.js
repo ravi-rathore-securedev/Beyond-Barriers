@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../style/signin.css'
+import { Link } from 'react-router-dom';
 
 export const SignUp = () => {
   return (
@@ -22,7 +23,9 @@ export const SignUp = () => {
                     <div className='db_log'>
                         
                         <img className="db_google" src='https://logos-world.net/wp-content/uploads/2020/09/Google-Symbol.png' alt='loading'></img>
+                        <Link to='/' className='linkStyle' >
                         <div className='gggg'>Continue with Google</div> 
+                        </Link>
                     </div>
 
                     <div className='dbs_id'>
@@ -44,8 +47,9 @@ export const SignUp = () => {
                         <input className='inp_id' type='text' placeholder='Password'></input>
 
                     </div>
-                    
+                    <Link to='/'  className='linkStyle'>
                     <div className='db_logi' ><button className='db_login'>Sign Up</button></div>
+                    </Link>
                    
                 </div>
             </div>
