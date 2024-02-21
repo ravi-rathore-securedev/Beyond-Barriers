@@ -11,8 +11,6 @@ export const Nav = () => {
     <div className='nav-item'>Home</div>
     </Link>
     <div className='nav-item'>Explore</div>
-    <div className='nav-item'>Services</div>
-    <div className='nav-item'>Community</div>
     <div className='nav-item'>Resources</div>
     <Link to='/signup' className='linkstyle'>
     <div >Sign up</div>
